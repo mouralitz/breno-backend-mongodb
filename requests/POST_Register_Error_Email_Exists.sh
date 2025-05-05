@@ -1,10 +1,10 @@
 curl --request POST \
-    --url 'https://backtest.lucasbreda.me/users/register' \
+    --url 'https://breno-backend-mongodb.vercel.app/users/register' \
     --header 'Content-Type: application/json' \
     --data '{
-        "username": "John Doe",
-        "email": "johndoe@example.com",
-        "password": "securepassword123"
+        "username": "Breno Moura",
+        "email": "breno@example.com",
+        "password": "coxinha123"
     }'
 
 read -p "Pressione qualquer tecla para sair..."

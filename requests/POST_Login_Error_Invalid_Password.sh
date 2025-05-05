@@ -1,9 +1,9 @@
 curl --request POST \
-    --url 'https://backtest.lucasbreda.me/users/login' \
+    --url 'https://breno-backend-mongodb.vercel.app/users/login' \
     --header 'Content-Type: application/json' \
     --data '{
-        "email": "johndoe@example.com",
-        "password": "wrongpassword"
+        "email": "breno@example.com",
+        "password": "senhaerrada123"
     }'
 
 read -p "Pressione qualquer tecla para sair..."
